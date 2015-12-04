@@ -1,0 +1,568 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Jolly+Lodger);
+@font-face {
+  font-family: thering;
+  src: url("../fonts/The Ring.ttf");
+}
+@font-face {
+  font-family: youmurderer;
+  src: url("../fonts/youmurdererbb_reg.ttf");
+}
+@font-face {
+  font-family: gonjuring;
+  src: url("../fonts/THE GONjURING.ttf");
+}
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+html, body {
+  height: 100%;
+}
+body {
+  color: #f2f2f2;
+  background-color: #332929;
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  color: #f2f2f2;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+a:link {
+  text-decoration: none;
+}
+.column-12 a:hover {
+  color: #da503e;
+}
+ul {
+  list-style: none;
+  max-width: 600px;
+  margin: 0 auto;
+}
+nav ul a:hover {
+  color: #da503e;
+}
+ul a {
+  display: block;
+  padding: 20px;
+  padding-right: 0 !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  text-decoration: none;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+h1, h2, h2 {
+  color: #da503e;
+  font-family: 'Jolly Lodger', cursive;
+  margin-bottom: 1.6%;
+}
+h1 {
+  font-size: 2.250em;
+}
+h2 {
+  font-size: 1.500em;
+}
+h3 {
+  font-size: 1.125em;
+}
+p {
+  font-size: 0.750em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+nav {
+  background-color: #332929;
+}
+img {
+  max-width: 95%!important;
+  margin-bottom: 7.5%;
+}
+nav li {
+  float: left;
+  width: 20%;
+}
+nav li:last-child {
+  border-right: none;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 14px;
+}
+input {
+  width: 100%;
+  display: block;
+}
+
+.row img:hover {
+
+    width: 500px;
+
+}
+
+
+.dlWhite {
+  color: #CACACA;
+  font-family: gonjuring;
+  letter-spacing: 2px;
+}
+
+.blueLink {
+  color: #476291;
+}
+
+.blueLink:hover {
+  color: #2D4A7C;
+}
+.contactFooter {
+  color: white;
+  margin-bottom: 70px;
+  margin-top: 50px;
+  float: left;
+}
+
+.aboutFooter {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.downloadFooter {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.forgotFooter {
+  margin-top: 50px;
+}
+
+.forgotsuccessFooter {
+  margin-top: 50px;
+}
+
+.indexFooter {
+  margin-top: 50px;
+}
+
+.loginFooter {
+  margin-top: 50px;
+}
+
+.loginsuccessFooter {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.mediaFooter {
+  margin-top: 10px;
+}
+
+.registerFooter {
+  margin-top: 50px;
+}
+
+.tyFooter {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#bigReg {
+  font-size: 20pt;
+}
+
+.banner {
+  background-color: #261f1f;
+  color: #da503e;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.banner .container {
+  max-width: 100%;
+}
+.banner h1 {
+  margin-bottom: 10px;
+  font-size: 4em;
+  font-family: 'Jolly Lodger', cursive;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.banner h1:hover {
+  color: #261f1f;
+}
+.button-red {
+  background: #da503e;
+  box-shadow: 0 5px 0 0 #bf4636;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 0.75em;
+  font-weight: 300;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.button-green {
+  background: #5cb85c;
+  box-shadow: 0 5px 0 0 #4f9e4f;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 0.75em;
+  font-weight: 300;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.button-green:hover {
+  background-color: #4f9e4f;
+  box-shadow: none;
+  margin-bottom: -1px;
+  margin-top: 1px;
+}
+
+/* Red button in the banner is larger. */
+
+.banner .button-red {
+  font-size: 1.2em;
+  font-weight: 400;
+  padding: 12px 12px;
+}
+
+/* On hover, remove the box shadow, and change background color of button to give it a "pressed down" look. */
+
+.button-red:hover {
+  background: #bf4636;
+  box-shadow: none;
+  margin-bottom: 17px;
+  margin-top: 1px;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  text-align: center;
+}
+.row p {
+  margin: 1.6%;
+}
+.row-index {
+  text-align: left;
+}
+.label {
+  display: inline;
+  padding: .3em .5em .3em;
+  margin-right: .1em;
+  font-size: 75%;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  border-radius: .3em;
+}
+.label-time {
+  background-color: #777;
+}
+.label-update {
+  background-color: #5cb85c;
+}
+.label-maintenance {
+  background-color: #da503e
+}
+.center {
+  text-align: center;
+}
+.aboutContainer {
+  width: 35%;
+  font-size: 25pt;
+  height: 200px;
+  color: #FFCF08;
+  font-family: thering;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-left: 5%;
+  float: left;
+  line-height: 100%;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+.aliceSection {
+  float: left;
+  background-color: #2D1010;
+  background-color: #261F1F;
+}
+.aliceRowText {
+  width: 30%;
+  margin-left: 20%;
+  margin-right: 10%;
+  float: left;
+  line-height: 30px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  font-family: gonjuring;
+  font-size: 23pt;
+  text-align: justify;
+}
+.aliceTextInside {
+  font-family: thering;
+  display: inline;
+  font-size: 40pt;
+  color: #E91010;
+}
+.aliceRowPic {
+  float: left;
+  margin-right: 10%;
+  padding-top: 10px;
+}
+.knifeSection {
+  float: left;
+  background-color: #332929;
+}
+.knifeRowPic {
+  float: left;
+  margin-left: 20%;
+  margin-right: 10%;
+  padding-top: 10px;
+}
+.knifeRowText {
+  float: left;
+  margin-right: 10%;
+  width: 30%;
+  line-height: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: gonjuring;
+  font-size: 21pt;
+  text-align: justify;
+}
+.knifeTextInside {
+  font-family: thering;
+  display: inline;
+  font-size: 40pt;
+  color: #E91010;
+}
+.spiralSection {
+  background-color: #261F1F;
+  margin-bottom: 100px;
+  float: left;
+}
+.spiralRowText {
+  float: left;
+  margin-left: 20%;
+  margin-right: 10%;
+  width: 30%;
+  line-height: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: gonjuring;
+  font-size: 22pt;
+  text-align: justify;
+}
+.spiralRowPic {
+  float: left;
+  margin-right: 10%;
+  padding-top: 7px;
+}
+.spiralTextInside {
+  font-family: thering;
+  display: inline;
+  font-size: 40pt;
+  color: #E91010;
+}
+.book {
+  float: left;
+  margin-left: 20%;
+  padding-top: 30px;
+  margin-top: 3%;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 6px 12px;
+  font-size: 0.875em;
+  line-height: 1.5;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+  border-color: #da503e;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(218, 80, 62, .5);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(218, 80, 62, .5);
+}
+.bookSection {
+  float: left;
+}
+#awayStuff {
+  font-family: youmurderer;
+  letter-spacing: 5px;
+  display: inline;
+  color: #E91010;
+}
+#jackpotStuff {
+  font-family: youmurderer;
+  display: inline;
+  color: #E91010;
+  font-size: 30pt;
+  letter-spacing: 5px;
+}
+#inputMessage {
+  max-width: 100%;
+  min-height: 100px;
+  max-height: 300px;
+}
+form .button-red {
+  margin-top: 5px;
+}
+input {
+  margin-bottom: 5px;
+}
+
+@media (min-width:992px) {
+
+  .column-1, .column-10, .column-11, .column-12, .column-2, .column-3, .column-4, .column-5, .column-6, .column-7, .column-8, .column-9 {
+    float: left;
+  }
+  .column-12 {
+    width: 100%;
+  }
+  .column-11 {
+    width: 91.66666667%;
+  }
+  .column-10 {
+    width: 83.33333333%;
+  }
+  .column-9 {
+    width: 75%;
+  }
+  .column-8 {
+    width: 66.66666667%;
+  }
+  .column-7 {
+    width: 58.33333333%;
+  }
+  .column-6 {
+    width: 50%;
+  }
+  .column-5 {
+    width: 41.66666667%;
+  }
+  .column-4 {
+    width: 33.33333333%;
+  }
+  .column-3 {
+    width: 25%;
+  }
+  .column-2 {
+    width: 16.66666667%;
+  }
+  .column-1 {
+    width: 8.33333333%;
+  }
+  img {
+    margin-bottom: 3.5%;
+    max-width: 90%!important;
+  }
+
+
+
+}
+@media screen and (min-width:1200px) {
+  .container {
+    width: 1180px;
+  }
+
+}
+@media screen and (max-width: 480px) {
+  .hamburger {
+    padding: 15px;
+    display: block;
+  }
+  .line {
+    border-bottom: 4px solid #da503e;
+    width: 30px;
+    margin-bottom: 5px;
+  }
+  .line:last-child {
+    margin-bottom: 0;
+  }
+  .banner h1 {
+    font-size: 2.5em;
+  }
+  .row-index {
+    text-align: center;
+  }
+  nav li {
+    width: 100%;
+  }
+  nav li:hover {
+    background-color: #261f1f;
+  }
+  img {
+    margin-bottom: 3.5%;
+    max-width: 90%!important;
+  }
+  .menu {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s linear;
+  }
+  .slide-down {
+    height: 280px;
+  }
+  .label-time {
+    display: none;
+  }
+
+  #bigReg {
+  line-height: 50px;
+  }
+
+}
+
+  .thumbnail:hover {
+      position:relative;
+      top:-25px;
+      left:-35px;
+      width:500px;
+      height:auto;
+      display:block;
+      z-index:999;
+  }
+
