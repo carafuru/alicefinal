@@ -24,10 +24,11 @@
 }
 html, body {
   height: 100%;
+
 }
 body {
   color: #f2f2f2;
-  background-color: #332929;
+  background-image: url("../images/bgnormal.PNG");
   font-family: 'Open Sans', sans-serif;
 }
 a {
@@ -109,10 +110,14 @@ input {
   display: block;
 }
 
-.row img:hover {
+.container .row img:hover {
 
-    width: 500px;
 
+
+}
+
+.container .row img {
+    border: solid #571b1b 7px;
 }
 
 
@@ -193,7 +198,7 @@ input {
 }
 
 .banner {
-  background-color: #261f1f;
+  background-image: url("../images/bgnormal.PNG");
   color: #da503e;
   padding-top: 10px;
   padding-bottom: 30px;
